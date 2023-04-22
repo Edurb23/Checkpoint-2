@@ -37,5 +37,32 @@ body{
 .cabecalho__texto:hover{
     color: white;
     background-color:#00030c;
-    border-radius: 20px;
+    border-radius: 15px;
+}
+.imagem{
+    width: 40%;
+    border-radius: 5px;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    margin:5em  10em  ;
+}
+.container__descricao{
+    padding: 20%;
+}
+.descricao_titulo{
+    font-family:'Krona One', sans-serif; 
+    font-weight:500;
+    font-size: 35px;
+    color: white
+}
+.descricao_texto{
+    font-size: 15px;
+    font-family:'Krona One', sans-serif;
+    color: white;
+}
+.subtitulo{
+    color: gray;
 }
