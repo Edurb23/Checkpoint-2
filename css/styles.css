@@ -41,10 +41,37 @@ body{
     border-radius: 15px;
 }
 
-.rodape__social{
+
+
+.imagem{
+    width:  40%;
+    border-radius: 5px;
+}
+.container{
     display: flex;
-    justify-content: center;
-    list-style-type: none;
+    align-items: center;
+    margin:4.5em  9em  ;
+}
+.container__descricao{
+    padding: 15%;
+}
+.descricao_titulo{
+    font-family:'Krona One', sans-serif; 
+    font-weight:500;
+    font-size: 35px;
+    color: white;
+    margin: 0.4em;
+}
+.descricao_texto{
+    font-size: 15px;
+    font-family:'Krona One', sans-serif;
+    color: white;
+    margin: 0.4em;
+}
+.subtitulo{
+    color: black;
+
+
 }
 .rodape{
     text-align: center;
@@ -57,16 +84,4 @@ body{
 .rodape__imagem{
     width: 19%;
 }  
-/* BREAKPOINT DO CABEÇALHO */ 
-@media(max-width:1088px){
-    .cabecalho{
-        flex-direction: column;
-        background-color: black;
-    }
-    .cabecalho nav{
-        flex-wrap: nowrap;
-    }
-    .cabecalho__texto{
-        color: white;
-    }
-}
+
