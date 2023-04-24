@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color:#00030c;
+    font-family: 'Krona One', sans-serif;;
+}
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:ghostwhite   ;
+    border-bottom: solid 3px darkcyan;;
+   
+}
+.cabecalho nav{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    height: 100%;
+    align-items: center;
+    
+}
+.cabecalho__texto{
+    text-decoration: none;
+    font-weight:bold;
+    font-size: 30px;
+    color:black;
+    padding: 2% 3.2%;
+    font-family:'Krona One', sans-serif; 
+}
+.cabecalho_logo{
+    width: 20%;
+    display: block
+}
+.cabecalho__texto:hover{
+    color: cyan;
+    background-color:#00030c;
+    border-radius: 15px;
+}
+
+.rodape__social{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+.rodape{
+    text-align: center;
+    background-color:ghostwhite;
+    border-top: solid 3px darkcyan;;
+}
+.rodape_titulo{
+    font-size: 1.5em;
+}
+.rodape__imagem{
+    width: 19%;
+}  
+/* BREAKPOINT DO CABEÇALHO */ 
+@media(max-width:1088px){
+    .cabecalho{
+        flex-direction: column;
+        background-color: black;
+    }
+    .cabecalho nav{
+        flex-wrap: nowrap;
+    }
+    .cabecalho__texto{
+        color: white;
+    }
+}
