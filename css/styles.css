@@ -107,8 +107,10 @@ body{
     }
     .cabecalho__texto{
         color: white;
+        font-size: 10px;
     }
 }
+
 /* BREAKPOINT DO CABEÇALHO */
 
 
