@@ -40,3 +40,19 @@ body{
     background-color:#00030c;
     border-radius: 15px;
 }
+.rodape__social{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+.rodape{
+    text-align: center;
+    background-color:ghostwhite;
+    border-top: solid 3px darkcyan;;
+}
+.rodape_titulo{
+    font-size: 1.5em;
+}
+.rodape__imagem{
+    width: 19%;
+}  
