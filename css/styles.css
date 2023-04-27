@@ -85,8 +85,9 @@ padding: 15%;
 }
 
 .imagem2{
+    width: 35%;
     border-radius: 5px;
-    width: 30%;
+    
 }
 .descricao_titulo:hover{
     color: darkcyan;
@@ -112,6 +113,7 @@ padding: 15%;
 .imagem3{
     width: 35%;
     border-radius: 5px;
+    
 }
 /* BREAKPOINT DO CABEÇALHO */ 
 @media(max-width:1088px){
@@ -162,3 +164,16 @@ padding: 15%;
         width: 69%;
     }
 }
+
+@media(max-width:900px){
+    .container_tech{
+        flex-direction: column;
+        text-align: center;
+        margin: 2em 2em;
+    }
+    .imagem3{
+        width: 42%;
+    }
+    
+}
+
