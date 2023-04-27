@@ -40,6 +40,13 @@ body{
     background-color:#00030c;
     border-radius: 15px;
 }
+h1{
+    font-size: 3rem;
+    font-family: "Open Sans Condensed", sans-serif;
+    text-align: center;
+    color: white;
+    padding: 3%;
+}
 .imagem{
     width: 35%;
     border-radius: 5px;
