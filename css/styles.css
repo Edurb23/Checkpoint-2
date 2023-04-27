@@ -40,6 +40,12 @@ body{
     background-color:#00030c;
     border-radius: 15px;
 }
+h1 {
+    font-size: 35px;
+    font-family: "Open Sans Condensed", sans-serif;
+    text-align: center;
+    color: white;
+}
 .imagem{
     width: 40%;
     border-radius: 5px;
