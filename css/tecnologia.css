@@ -1,55 +1,9 @@
-@import url('./mobile.css');
-@import url('./games.css');
-@import url('./tecnologia.css');
-@import url('integrantes.css');
-@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap%27');@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
-*{
-    padding: 0;
-    margin: 0;
-}
-body{
-    background-color:#00030c;
-    font-family: 'Krona One', sans-serif;;
-}
-.cabecalho{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color:ghostwhite   ;
-    border-bottom: solid 3px darkcyan;;
-   
-}
-.cabecalho nav{
-    display: flex;
-    justify-content: space-around;
-    width: 80%;
-    height: 100%;
-    align-items: center;
-    
-}
-.cabecalho__texto{
-    text-decoration: none;
-    font-weight:bold;
-    font-size: 30px;
-    color:black;
-    padding: 2% 3.2%;
-    font-family:'Krona One', sans-serif; 
-}
-.cabecalho_logo{
-    width: 20%;
-    display: block
-}
-.cabecalho__texto:hover{
-    color: cyan;
-    background-color:#00030c;
-    border-radius: 15px;
-}
 .imagem{
     width: 40%;
     border-radius: 5px;
 }
 
-.container{
+.container_tech{
     display: flex;
     align-items: center;
     margin:4.5em  9em  ;
@@ -73,9 +27,13 @@ body{
 .subtitulo{
     color: gray;
 }
-.container__descricao2{
-    padding: 4% ;
+.container_descricao2{
+    padding: 15% ;
 }
+.container_descricao3{
+padding: 15%;
+}
+
 .imagem2{
     border-radius: 5px;
     width: 45%;
@@ -84,6 +42,7 @@ body{
     color: darkcyan;
 
 }
+
 .rodape__social{
     display: flex;
     justify-content: center;
@@ -96,11 +55,13 @@ body{
 }
 .rodape_titulo{
     font-size: 1.5em;
-    color: #00030c;
 }
 .rodape__imagem{
     width: 19%;
 }  
+.imagem3{
+    width: 45%;
+}
 /* BREAKPOINT DO CABEÇALHO */ 
 @media(max-width:1088px){
     .cabecalho{
@@ -112,17 +73,21 @@ body{
     }
     .cabecalho__texto{
         color: white;
-        font-size: 10px;
     }
 }
-
 /* BREAKPOINT DO CABEÇALHO */
 
 
 
+
+
+
+
+
+
 /* BREAKPOINT DO MAIN */
-@media (max-width:820px){
-    .container{
+@media(max-width:820px){
+    .container_tech{
         flex-direction: column;
         text-align: center;
         margin: 2em 2em;
@@ -139,7 +104,12 @@ body{
     }
      .secundaria{
         width: 75%;
-     }
+     
+    }
+
+    .imagem3{
+        width: 69%;
+    }
 }
 
 /* BREAKPOINT DO MAIN */
