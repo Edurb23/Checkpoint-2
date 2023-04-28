@@ -1,0 +1,33 @@
+h1{ 
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+    padding: 3%;
+}
+h2{
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+    padding: 3%;}
+
+
+.container__integrantes{
+    display: flex;
+    align-items: center;
+    margin:4.5em  9em  ;
+    
+    
+}
+
+.link {
+    color: darkcyan;;
+    text-decoration: underline;
+    text-align: center;
+}
+
+@media(max-width:1410px){
+    .container__integrantes{
+        
+        flex-direction: column;
+    }
+}
