@@ -1,0 +1,20 @@
+h2{
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+    padding: 3%;}
+
+
+div{
+    margin: 50px;
+    list-style: none;
+    text-align: center;
+    gap: 2px;
+    
+}
+
+.link {
+    color: darkcyan;;
+    text-decoration: none;
+    text-align: center;
+}

@@ -1,12 +1,5 @@
-h1{
-    font-size: 3rem;
-    font-family: "Open Sans Condensed", sans-serif;
-    text-align: center;
-    color: white;
-    padding: 3%;
-}
-.imagem_game{
-    width: 35%;
+.imagem{
+    width: 40%;
     border-radius: 5px;
 }
 
@@ -36,16 +29,14 @@ h1{
 }
 .container_descricao2{
     padding: 15% ;
-    display: flex;
 }
 .container_descricao3{
 padding: 15%;
 }
 
-.imagem_game2{
-    width: 35%;
+.imagem2{
     border-radius: 5px;
-    
+    width: 45%;
 }
 .descricao_titulo:hover{
     color: darkcyan;
@@ -68,11 +59,31 @@ padding: 15%;
 .rodape__imagem{
     width: 19%;
 }  
-.imagem_game3{
-    width: 35%;
-    border-radius: 5px;
-    
+.imagem3{
+    width: 45%;
 }
+/* BREAKPOINT DO CABEÇALHO */ 
+@media(max-width:1088px){
+    .cabecalho{
+        flex-direction: column;
+        background-color: black;
+    }
+    .cabecalho nav{
+        flex-wrap: nowrap;
+    }
+    .cabecalho__texto{
+        color: white;
+    }
+}
+/* BREAKPOINT DO CABEÇALHO */
+
+
+
+
+
+
+
+
 
 /* BREAKPOINT DO MAIN */
 @media(max-width:820px){
@@ -81,14 +92,14 @@ padding: 15%;
         text-align: center;
         margin: 2em 2em;
     }
-    .imagem_game{
+    .imagem{
         width: 66%;
     }
     .secundario{
         flex-direction: column-reverse;
         text-align: center;
     }
-    .imagem_game2{
+    .imagem2{
         width: 69%;
     }
      .secundaria{
@@ -96,19 +107,9 @@ padding: 15%;
      
     }
 
-    .imagem_game3{
+    .imagem3{
         width: 69%;
     }
 }
 
-@media(max-width:900px){
-    .container_tech{
-        flex-direction: column;
-        text-align: center;
-        margin: 2em 2em;
-    }
-    .imagem_game3{
-        width: 42%;
-    }
-    
-}
+/* BREAKPOINT DO MAIN */
